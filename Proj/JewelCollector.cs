@@ -6,6 +6,8 @@ public class JewelCollector
     Map mapa = new Map(10);
 
     Jewel[] joias = new Jewel[6];
+    for (int i = 0; i < 6; i++)
+      joias[i] = new Jewel();
     joias[0].setPos(1, 9);
     joias[0].setTipo("Red");
     joias[1].setPos(8, 8);
@@ -17,10 +19,12 @@ public class JewelCollector
     joias[4].setPos(3, 4);
     joias[4].setTipo("Blue");
     joias[5].setPos(2, 1);
-    joias[6].setTipo("Blue");
+    joias[5].setTipo("Blue");
     mapa.setJoias(joias);
 
     Obstacle[] obstaculos = new Obstacle[12];
+    for (int i = 0; i < 12; i++)
+      obstaculos[i] = new Obstacle();
     obstaculos[0].setPos(5, 0);
     obstaculos[0].setTipo("Water");
     obstaculos[1].setPos(5, 1);
