@@ -1,4 +1,5 @@
-public class JewelCollector {
+public class JewelCollector 
+{
 
   public static void Main() {
 
@@ -74,4 +75,5 @@ public class JewelCollector {
           
       } while (running);
   }
+  
 }
