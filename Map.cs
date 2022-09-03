@@ -67,4 +67,27 @@ public class Map
         }
     }
 
+    public boolean checkPassoValido(String passo) {
+        switch (passo)
+        {
+            case "w":
+            if (robo.x == 0)
+                return false;
+            break;
+            case "a":
+            if (robo.y == 0)
+                return false;
+            break;
+            case "s":
+            if (robo.x == tamanho - 1)
+                return false;
+            break;
+            case "d":
+            if (robo.x == tamanho - 1)
+                return false;
+            break;
+        }
+        return true;
+    }
+
 }

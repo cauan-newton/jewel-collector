@@ -62,13 +62,17 @@ public class JewelCollector
           if (command.Equals("quit")) {
               running = false;
           } else if (command.Equals("w")) {
-            robo.mover("w");              
+            if (mapa.checkPassoValido("w"))
+              robo.mover("w");              
           } else if (command.Equals("a")) {
-            robo.mover("a");              
+            if (mapa.checkPassoValido("a"))
+              robo.mover("a");              
           } else if (command.Equals("s")) {
-            robo.mover("s");            
+            if (mapa.checkPassoValido("s"))
+              robo.mover("s");            
           } else if (command.Equals("d")) {
-            robo.mover("d");          
+            if (mapa.checkPassoValido("d"))
+              robo.mover("d");          
           } else if (command.Equals("g")) {
             robo.pegarJoia();              
           }
