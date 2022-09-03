@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\msft13\\Projeto\\Proj\\Proj.csproj": {}
+    "c:\\Users\\msft13\\Documents\\GitHub\\jewel-collector\\Proj\\Proj.csproj": {}
   },
   "projects": {
-    "c:\\Users\\msft13\\Projeto\\Proj\\Proj.csproj": {
+    "c:\\Users\\msft13\\Documents\\GitHub\\jewel-collector\\Proj\\Proj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\msft13\\Projeto\\Proj\\Proj.csproj",
+        "projectUniqueName": "c:\\Users\\msft13\\Documents\\GitHub\\jewel-collector\\Proj\\Proj.csproj",
         "projectName": "Proj",
-        "projectPath": "c:\\Users\\msft13\\Projeto\\Proj\\Proj.csproj",
+        "projectPath": "c:\\Users\\msft13\\Documents\\GitHub\\jewel-collector\\Proj\\Proj.csproj",
         "packagesPath": "C:\\Users\\msft13\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\msft13\\Projeto\\Proj\\obj\\",
+        "outputPath": "c:\\Users\\msft13\\Documents\\GitHub\\jewel-collector\\Proj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msft13\\AppData\\Roaming\\NuGet\\NuGet.Config"
